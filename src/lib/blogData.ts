@@ -664,4 +664,682 @@ export const blogPosts: BlogPost[] = [
 <p>La mejor estrategia SEO en 2026 es escribir el artículo más útil y bien estructurado para tu lector. Usa nuestra <a href="/">Calculadora de Tiempo de Lectura</a> como brújula de planificación.</p>
 `.trim()
   },
+  // ── Group 6: WPM Reading Speed Guide ──────────────────────────────────────
+  {
+    slug: "wpm-reading-speed-complete-guide",
+    language: "en",
+    translationGroup: "wpm-guide",
+    title: "What Is a Good WPM Reading Speed? The Complete Guide (2026)",
+    description: "Discover what WPM (Words Per Minute) means, what counts as slow, average, or fast reading speed, and how to use a custom WPM setting to get accurate reading time estimates.",
+    date: "2026-03-02",
+    category: "Reading Tips",
+    keywords: ["WPM", "words per minute", "reading speed", "average reading speed", "fast reading", "reading time"],
+    content: `
+<h2>What Does WPM Actually Mean?</h2>
+<p>WPM — Words Per Minute — is the standard measure of how quickly someone reads or speaks. If you read a 500-word article in 2.5 minutes, your reading speed is 200 WPM. It sounds simple, but WPM has huge implications for content creators, bloggers, and public speakers alike.</p>
+<p>If you want to calculate the exact reading time of your own content at your personal WPM, use our free <a href="/">Reading Time Calculator</a> — complete with a custom WPM slider.</p>
+
+<h2>Average Reading Speed by Type</h2>
+<h3>Silent Reading (Adults)</h3>
+<p>The average adult reads silently at <strong>200–300 WPM</strong>. Most reading time calculators, including industry tools used by Medium and Substack, default to 200–238 WPM as a baseline.</p>
+<h3>Oral Reading / Presentation Speed</h3>
+<p>When reading aloud — for a speech, podcast, or presentation — the average drops to <strong>120–180 WPM</strong>. This is why a blog post that takes 3 minutes to read might take 5–6 minutes to deliver as a speech.</p>
+<h3>Speed Reading</h3>
+<p>With training, some readers achieve <strong>400–700 WPM</strong>, though comprehension tends to drop significantly above 400 WPM. Speed reading is ideal for skimming, not deep understanding.</p>
+
+<h2>WPM by Reader Type</h2>
+<ul>
+  <li><strong>Slow reader:</strong> 100–150 WPM — common for ESL readers or dense academic texts</li>
+  <li><strong>Average reader:</strong> 200–250 WPM — the global adult baseline</li>
+  <li><strong>Fast reader:</strong> 300–400 WPM — typical for avid readers and professionals</li>
+  <li><strong>Expert reader:</strong> 400–600 WPM — trained readers with high comprehension</li>
+</ul>
+
+<h2>Why WPM Matters for Content Strategy</h2>
+<h3>Accurate Reading Time Displays</h3>
+<p>If you display "5 min read" on your blog but your audience reads at 150 WPM (slower than your calculator assumes), that article will actually take them 8 minutes. This mismatch erodes trust. By letting readers — or yourself — <a href="/">adjust the WPM slider in our calculator</a>, you get a truthful estimate.</p>
+<h3>Speech and Presentation Planning</h3>
+<p>If you're preparing a 10-minute presentation, knowing your natural speaking WPM (usually 130–160) lets you precisely calculate the word count you need. Too many words = you'll rush. Too few = awkward silence.</p>
+<p>Check out our guide on <a href="/blog/how-to-use-teleprompter-script-for-presentations">using a teleprompter script effectively</a> to match your script length to your speaking pace.</p>
+
+<h2>How to Improve Your Reading Speed</h2>
+<h3>Eliminate Subvocalization</h3>
+<p>Most people "say" each word internally as they read (subvocalization), which caps your speed at your speaking pace (~150 WPM). Practicing to suppress this habit is the single biggest lever for speed improvement.</p>
+<h3>Use a Pointer or Pacer</h3>
+<p>Moving your finger or a cursor under each line while reading prevents regression (re-reading words) and keeps your eyes moving forward.</p>
+<h3>Read More</h3>
+<p>Reading speed is a skill. Daily reading practice at or slightly above your comfortable pace compounds over time into significantly higher WPM.</p>
+
+<h2>Conclusion</h2>
+<p>200 WPM is a solid baseline for most adults — but your actual speed depends on the text type, language, and your reading habits. For precise reading time estimates tailored to <em>your</em> speed, try our <a href="/">Reading Time Calculator with custom WPM slider</a>. Set it to your personal pace and get accurate predictions instantly.</p>
+`.trim()
+  },
+  {
+    slug: "wpm-reading-speed-complete-guide-ko",
+    language: "ko",
+    translationGroup: "wpm-guide",
+    title: "WPM(분당 단어 수)이란? 읽기 속도 완전 가이드 (2026)",
+    description: "WPM(분당 단어 수)의 뜻과 느린·평균·빠른 읽기 속도 기준, 그리고 WPM 슬라이더로 정확한 읽기 시간을 계산하는 방법을 알아봅니다.",
+    date: "2026-03-02",
+    category: "독서 팁",
+    keywords: ["WPM", "분당 단어 수", "읽기 속도", "평균 읽기 속도", "빠른 독서", "읽기 시간"],
+    content: `
+<h2>WPM이란 무엇인가요?</h2>
+<p>WPM은 Words Per Minute, 즉 '분당 읽는 단어 수'를 뜻합니다. 500단어 분량의 글을 2.5분에 읽었다면 여러분의 읽기 속도는 200 WPM입니다. 블로거, 발표자, 콘텐츠 기획자 모두가 알아야 할 핵심 지표입니다.</p>
+<p>자신의 WPM에 맞는 정확한 읽기 시간을 계산하려면 <a href="/">읽기 시간 계산기</a>의 WPM 슬라이더를 활용해 보세요.</p>
+
+<h2>유형별 평균 읽기 속도</h2>
+<h3>성인 묵독 기준</h3>
+<p>일반 성인의 평균 묵독 속도는 <strong>분당 200~300단어</strong>입니다. Medium, Substack 등 주요 플랫폼이 기본값으로 200~238 WPM을 사용하는 이유가 바로 이 때문입니다.</p>
+<h3>낭독 / 발표 속도</h3>
+<p>소리 내어 읽는 경우(발표, 팟캐스트 등)에는 평균 <strong>120~180 WPM</strong>으로 낮아집니다. 블로그에서 3분 읽기 분량의 글이 스피치로는 5~6분이 걸리는 이유가 여기에 있습니다.</p>
+
+<h2>독자 유형별 WPM 기준</h2>
+<ul>
+  <li><strong>느린 독자:</strong> 100~150 WPM — 외국어 독자나 전문 학술 텍스트 독자</li>
+  <li><strong>평균 독자:</strong> 200~250 WPM — 일반 성인 기준</li>
+  <li><strong>빠른 독자:</strong> 300~400 WPM — 독서량이 많은 독자, 전문가</li>
+  <li><strong>전문가 수준:</strong> 400~600 WPM — 훈련된 속독 독자</li>
+</ul>
+
+<h2>WPM이 콘텐츠 전략에 중요한 이유</h2>
+<h3>정확한 읽기 시간 표시</h3>
+<p>블로그에 '5분 읽기'라고 표시했지만 독자의 실제 읽기 속도가 150 WPM이라면, 그 글은 사실 8분이 걸립니다. 이 불일치는 신뢰를 떨어뜨립니다. <a href="/">계산기의 WPM 슬라이더</a>로 청중의 실제 속도에 맞는 정직한 예상 시간을 제공하세요.</p>
+<h3>발표 스크립트 분량 계산</h3>
+<p>10분 발표를 준비한다면, 본인의 말하기 속도(보통 130~160 WPM)를 알아야 필요한 단어 수를 정확히 계산할 수 있습니다. <a href="/blog/how-to-use-teleprompter-script-for-presentations-ko">텔레프롬프터 활용 가이드</a>도 함께 확인해 보세요.</p>
+
+<h2>읽기 속도를 높이는 방법</h2>
+<h3>내재화된 발화(묵언화) 줄이기</h3>
+<p>대부분의 사람은 머릿속으로 각 단어를 '읽으면서 말합니다'(묵언화). 이 습관이 읽기 속도를 말하기 속도(~150 WPM)로 제한합니다. 이를 억제하는 연습이 속도 향상의 가장 큰 열쇠입니다.</p>
+<h3>포인터 사용하기</h3>
+<p>손가락이나 커서로 각 줄을 짚으며 읽으면 단어를 다시 읽는 습관(회귀)을 막고 시선을 앞으로 유지해 줍니다.</p>
+
+<h2>결론</h2>
+<p>200 WPM은 대부분의 성인에게 좋은 기준점이지만, 실제 속도는 텍스트 유형과 언어에 따라 달라집니다. 본인의 WPM에 맞는 정확한 읽기 시간 계산은 <a href="/">읽기 시간 계산기</a>를 활용하세요.</p>
+`.trim()
+  },
+  {
+    slug: "wpm-reading-speed-complete-guide-es",
+    language: "es",
+    translationGroup: "wpm-guide",
+    title: "¿Qué es una buena velocidad de lectura en WPM? Guía completa (2026)",
+    description: "Descubre qué significa WPM, cuáles son los rangos de velocidad lenta, media y rápida, y cómo usar un ajuste de WPM personalizado para obtener tiempos de lectura precisos.",
+    date: "2026-03-02",
+    category: "Consejos de Lectura",
+    keywords: ["WPM", "palabras por minuto", "velocidad de lectura", "velocidad promedio", "lectura rápida", "tiempo de lectura"],
+    content: `
+<h2>¿Qué significa WPM?</h2>
+<p>WPM son las siglas de Words Per Minute (palabras por minuto). Si lees un artículo de 500 palabras en 2,5 minutos, tu velocidad de lectura es de 200 WPM. Es la métrica estándar para creadores de contenido, bloggers y oradores públicos.</p>
+<p>Para calcular el tiempo de lectura exacto con tu WPM personal, usa nuestra <a href="/">Calculadora de Tiempo de Lectura</a> con deslizador de WPM personalizable.</p>
+
+<h2>Velocidades promedio por tipo de lectura</h2>
+<h3>Lectura silenciosa (adultos)</h3>
+<p>El adulto promedio lee en silencio a <strong>200–300 WPM</strong>. Plataformas como Medium y Substack usan 200–238 WPM como valor predeterminado.</p>
+<h3>Lectura en voz alta / Presentaciones</h3>
+<p>Al leer en voz alta (discurso, podcast), la velocidad cae a <strong>120–180 WPM</strong>. Un artículo de 3 minutos puede convertirse en 5–6 minutos al hablarlo.</p>
+
+<h2>WPM según el tipo de lector</h2>
+<ul>
+  <li><strong>Lector lento:</strong> 100–150 WPM</li>
+  <li><strong>Lector promedio:</strong> 200–250 WPM</li>
+  <li><strong>Lector rápido:</strong> 300–400 WPM</li>
+  <li><strong>Lector experto:</strong> 400–600 WPM</li>
+</ul>
+
+<h2>Por qué el WPM importa en tu estrategia de contenido</h2>
+<p>Mostrar "5 min de lectura" cuando tu audiencia lee a 150 WPM genera desconfianza. Con el <a href="/">deslizador de WPM de nuestra calculadora</a>, obtienes una estimación honesta para cualquier audiencia.</p>
+<p>Si preparas presentaciones, consulta nuestra guía sobre <a href="/blog/how-to-use-teleprompter-script-for-presentations-es">cómo usar un teleprompter eficazmente</a>.</p>
+
+<h2>Cómo mejorar tu velocidad de lectura</h2>
+<h3>Reducir la subvocalización</h3>
+<p>La mayoría "dicen" cada palabra internamente, lo que limita la velocidad a tu ritmo de habla (~150 WPM). Suprimir este hábito es el mayor impulsor de mejora.</p>
+<h3>Usar un puntero</h3>
+<p>Mover el dedo o cursor bajo cada línea evita la regresión y mantiene la vista avanzando.</p>
+
+<h2>Conclusión</h2>
+<p>200 WPM es un buen punto de partida, pero tu velocidad real varía según el tipo de texto y el idioma. Para estimaciones precisas adaptadas a tu ritmo, usa nuestra <a href="/">Calculadora de Tiempo de Lectura con deslizador de WPM</a>.</p>
+`.trim()
+  },
+
+  // ── Group 7: Teleprompter Script Guide ─────────────────────────────────────
+  {
+    slug: "how-to-use-teleprompter-script-for-presentations",
+    language: "en",
+    translationGroup: "teleprompter-guide",
+    title: "How to Use a Teleprompter Script for Smooth Presentations (Complete Guide)",
+    description: "Learn how to write, time, and deliver a teleprompter script for speeches, YouTube videos, and live presentations. Includes tips on scroll speed, WPM, and practice methods.",
+    date: "2026-03-02",
+    category: "Presentation Tips",
+    keywords: ["teleprompter script", "presentation tips", "public speaking", "WPM", "scroll speed", "script writing"],
+    content: `
+<h2>What Is a Teleprompter Script?</h2>
+<p>A teleprompter script is a written document designed for oral delivery — scrolling at the speaker's reading pace so they can maintain eye contact with the camera or audience. News anchors, politicians, and YouTubers all use teleprompters to deliver polished, confident presentations.</p>
+<p>The key difference from a regular blog post or essay is that teleprompter scripts are written for the ear, not the eye. Sentences are shorter, vocabulary is simpler, and rhythm matters.</p>
+
+<h2>Step 1: Write for Your Voice, Not the Page</h2>
+<h3>Use Conversational Language</h3>
+<p>Avoid formal constructions like "it is noteworthy that..." or "as previously mentioned." Instead, write how you talk: "Here's the thing..." or "Let me show you why this matters."</p>
+<h3>Keep Sentences Short</h3>
+<p>Long sentences are hard to deliver naturally. Aim for 15–20 words per sentence maximum. A readable script is a deliverable script — which is why <a href="/blog/improve-readability-score-blog">readability score</a> tools are useful even for spoken content.</p>
+<h3>Mark Your Pauses</h3>
+<p>Add ellipses (...) or line breaks where you naturally pause. "This changed everything... and here's how." These micro-pauses help teleprompter operators and auto-scroll tools sync to your rhythm.</p>
+
+<h2>Step 2: Calculate Your Script Length</h2>
+<p>This is the most critical step beginners skip. If you're giving a 10-minute presentation and you speak at 140 WPM (a comfortable, clear pace), your script needs exactly <strong>1,400 words</strong>.</p>
+<p>Use our <a href="/">Reading Time Calculator with WPM slider</a> to test your script length before your presentation. Set the WPM to your speaking pace, paste your script, and see the exact duration.</p>
+<h3>Speaking WPM vs. Reading WPM</h3>
+<p>Your speaking speed (120–160 WPM) is significantly slower than your silent reading speed (200–300 WPM). Always use your speaking WPM — not your reading WPM — when planning presentation scripts. Check our <a href="/blog/wpm-reading-speed-complete-guide">WPM guide</a> for average speaking speeds by context.</p>
+
+<h2>Step 3: Practice with Teleprompter Mode</h2>
+<p>The most effective way to rehearse is to use a teleprompter tool that scrolls your script at the exact pace of your delivery time. Our <a href="/">Reading Time Calculator's Teleprompter Mode</a> does exactly this: paste your script, and it auto-scrolls at your calculated reading speed in full-screen mode.</p>
+<h3>Practice Tips</h3>
+<ul>
+  <li>Start at 0.75× speed to build muscle memory and confidence</li>
+  <li>Gradually increase to 1.0×, then 1.25× as comfort grows</li>
+  <li>Record yourself and watch back for unnatural pauses or rushed sections</li>
+  <li>Adjust the script — not your delivery — when something feels wrong</li>
+</ul>
+
+<h2>Step 4: Optimize Scroll Speed</h2>
+<p>Scroll speed should match your natural speaking rhythm, not push it. If you find yourself rushing to keep up with the scroll, slow it down. If you're waiting for text, speed it up. The scroll serves you — you don't serve the scroll.</p>
+
+<h2>Common Teleprompter Mistakes to Avoid</h2>
+<ul>
+  <li><strong>Reading too fast:</strong> Viewers can tell. Slow down to 120–140 WPM for natural-sounding delivery.</li>
+  <li><strong>Zero eye variation:</strong> Even with a teleprompter, glance away occasionally to appear natural.</li>
+  <li><strong>No rehearsal:</strong> Even one full run-through transforms delivery quality.</li>
+  <li><strong>Script not timed:</strong> Always calculate script length before delivery day.</li>
+</ul>
+
+<h2>Conclusion</h2>
+<p>A well-timed teleprompter script is the difference between a nervous, stumbling presentation and a confident, professional delivery. Start by calculating your script's reading time at your personal speaking WPM using our <a href="/">Reading Time Calculator</a>, then practice in Teleprompter Mode until the words feel like your own.</p>
+`.trim()
+  },
+  {
+    slug: "how-to-use-teleprompter-script-for-presentations-ko",
+    language: "ko",
+    translationGroup: "teleprompter-guide",
+    title: "텔레프롬프터 스크립트 완전 가이드: 발표를 완벽하게 만드는 방법",
+    description: "발표, 유튜브 촬영, 강연을 위한 텔레프롬프터 스크립트 작성·시간 계산·연습 방법을 단계별로 안내합니다. WPM 설정과 스크롤 속도 최적화 팁 포함.",
+    date: "2026-03-02",
+    category: "발표 팁",
+    keywords: ["텔레프롬프터 스크립트", "발표 팁", "스피치", "WPM", "유튜브 촬영", "원고 작성"],
+    content: `
+<h2>텔레프롬프터 스크립트란?</h2>
+<p>텔레프롬프터 스크립트는 발표자가 카메라나 청중과 눈을 맞추면서 자연스럽게 읽을 수 있도록 설계된 문서입니다. 뉴스 앵커, 정치인, 유튜버 모두 텔레프롬프터를 사용해 자신감 있는 발표를 합니다.</p>
+<p>일반 블로그 글과 달리, 텔레프롬프터 스크립트는 '눈'이 아닌 '귀'를 위해 씁니다. 문장은 짧고, 어휘는 쉬우며, 리듬이 중요합니다.</p>
+
+<h2>1단계: 말하는 방식으로 써라</h2>
+<h3>구어체 사용</h3>
+<p>"~임을 주목할 필요가 있다"와 같은 격식체 대신, 실제 말하는 방식으로 쓰세요. "여기서 중요한 건…" 또는 "왜 이게 중요한지 보여드릴게요."</p>
+<h3>문장 짧게 유지</h3>
+<p>긴 문장은 자연스럽게 전달하기 어렵습니다. 한 문장은 15~20단어를 넘기지 마세요. 읽기 쉬운 스크립트가 전달하기도 쉬운 법입니다. <a href="/blog/improve-readability-score-blog-ko">가독성 점수</a> 도구는 발표 원고에도 유용합니다.</p>
+
+<h2>2단계: 스크립트 분량 계산하기</h2>
+<p>10분 발표를 준비하고 본인의 말하기 속도가 140 WPM이라면, 스크립트는 정확히 <strong>1,400단어</strong>가 필요합니다.</p>
+<p><a href="/">WPM 슬라이더가 있는 읽기 시간 계산기</a>로 스크립트를 붙여넣고 발표 시간을 미리 확인하세요. <a href="/blog/wpm-reading-speed-complete-guide-ko">WPM 가이드</a>에서 상황별 평균 말하기 속도를 확인할 수 있습니다.</p>
+
+<h2>3단계: 텔레프롬프터 모드로 연습하기</h2>
+<p>가장 효과적인 연습법은 실제 발표 속도에 맞춰 스크립트가 자동 스크롤되는 텔레프롬프터 도구를 사용하는 것입니다. 우리의 <a href="/">읽기 시간 계산기 텔레프롬프터 모드</a>가 바로 이 역할을 합니다.</p>
+<h3>연습 팁</h3>
+<ul>
+  <li>처음엔 0.75× 속도로 근육 기억과 자신감을 키우세요</li>
+  <li>점차 1.0×, 1.25×로 늘려가세요</li>
+  <li>자신을 촬영해 어색한 부분을 파악하세요</li>
+  <li>전달 방식이 아닌 스크립트를 수정하세요</li>
+</ul>
+
+<h2>흔한 텔레프롬프터 실수</h2>
+<ul>
+  <li><strong>너무 빠르게 읽기:</strong> 청중이 알아챕니다. 120~140 WPM을 유지하세요.</li>
+  <li><strong>연습 생략:</strong> 한 번의 완전한 리허설이 발표 품질을 크게 바꿉니다.</li>
+  <li><strong>시간 계산 생략:</strong> 반드시 발표 전 분량을 계산하세요.</li>
+</ul>
+
+<h2>결론</h2>
+<p>잘 계산된 텔레프롬프터 스크립트는 긴장된 발표를 자신감 있는 퍼포먼스로 바꿉니다. <a href="/">읽기 시간 계산기</a>에서 본인의 말하기 WPM을 설정하고, 텔레프롬프터 모드로 연습을 시작하세요.</p>
+`.trim()
+  },
+  {
+    slug: "how-to-use-teleprompter-script-for-presentations-es",
+    language: "es",
+    translationGroup: "teleprompter-guide",
+    title: "Cómo usar un script de teleprompter para presentaciones fluidas (Guía completa)",
+    description: "Aprende a escribir, cronometrar y entregar un script de teleprompter para discursos, videos de YouTube y presentaciones en vivo. Incluye consejos sobre velocidad de desplazamiento y WPM.",
+    date: "2026-03-02",
+    category: "Consejos de Presentación",
+    keywords: ["script teleprompter", "consejos presentación", "hablar en público", "WPM", "velocidad desplazamiento", "escritura de guiones"],
+    content: `
+<h2>¿Qué es un script de teleprompter?</h2>
+<p>Un script de teleprompter es un documento diseñado para la entrega oral, que se desplaza al ritmo del hablante para que pueda mantener contacto visual con la cámara o el público. Presentadores de noticias, políticos y YouTubers lo usan para ofrecer presentaciones pulidas y seguras.</p>
+
+<h2>Paso 1: Escribe para tu voz, no para la página</h2>
+<h3>Usa lenguaje conversacional</h3>
+<p>Evita construcciones formales. En su lugar, escribe como hablas: "Aquí está la clave..." o "Déjame mostrarte por qué esto importa."</p>
+<h3>Frases cortas</h3>
+<p>Las oraciones largas son difíciles de entregar de forma natural. Apunta a un máximo de 15–20 palabras por oración. Un script legible es un script entregable — por eso las herramientas de <a href="/blog/improve-readability-score-blog-es">puntuación de legibilidad</a> también son útiles para contenido oral.</p>
+
+<h2>Paso 2: Calcula la extensión de tu script</h2>
+<p>Si das una presentación de 10 minutos y hablas a 140 WPM, tu script necesita exactamente <strong>1.400 palabras</strong>.</p>
+<p>Usa nuestra <a href="/">Calculadora de Tiempo de Lectura con deslizador de WPM</a> para verificar la duración antes de tu presentación. Consulta también nuestra <a href="/blog/wpm-reading-speed-complete-guide-es">guía de WPM</a> para velocidades de habla según el contexto.</p>
+
+<h2>Paso 3: Practica con el Modo Teleprompter</h2>
+<p>El <a href="/">Modo Teleprompter de nuestra Calculadora</a> desplaza tu script automáticamente al ritmo exacto de tu tiempo de entrega en pantalla completa.</p>
+<h3>Consejos de práctica</h3>
+<ul>
+  <li>Empieza a 0.75× para ganar confianza</li>
+  <li>Aumenta gradualmente a 1.0×, luego 1.25×</li>
+  <li>Grábate y revisa para detectar secciones apresuradas</li>
+  <li>Ajusta el script, no la entrega, cuando algo no funcione</li>
+</ul>
+
+<h2>Errores comunes a evitar</h2>
+<ul>
+  <li><strong>Leer demasiado rápido:</strong> Los espectadores lo notan. Mantén 120–140 WPM.</li>
+  <li><strong>Sin ensayo:</strong> Incluso un recorrido completo transforma la calidad.</li>
+  <li><strong>Script no cronometrado:</strong> Siempre calcula la extensión antes del día de la presentación.</li>
+</ul>
+
+<h2>Conclusión</h2>
+<p>Un script de teleprompter bien cronometrado es la diferencia entre una presentación nerviosa y una entrega profesional. Comienza calculando el tiempo de tu script con nuestra <a href="/">Calculadora de Tiempo de Lectura</a>, luego practica en Modo Teleprompter.</p>
+`.trim()
+  },
+
+  // ── Group 8: Readability Score Guide ───────────────────────────────────────
+  {
+    slug: "improve-readability-score-blog",
+    language: "en",
+    translationGroup: "readability-guide",
+    title: "How to Improve Your Blog's Readability Score for SEO (Practical Guide)",
+    description: "A high readability score means more readers finish your articles. Learn the Flesch Reading Ease algorithm, what the scores mean, and 7 actionable techniques to improve your blog's readability.",
+    date: "2026-03-02",
+    category: "SEO Tips",
+    keywords: ["readability score", "Flesch Reading Ease", "blog SEO", "content readability", "improve writing", "SEO tips"],
+    content: `
+<h2>What Is Readability Score and Why Does It Matter for SEO?</h2>
+<p>Readability score measures how easy or difficult a piece of text is to read. The most widely used formula is the <strong>Flesch Reading Ease</strong> score — a 0–100 scale where higher scores mean easier reading.</p>
+<p>Google's ranking algorithms care about user experience. If readers bounce because your content is too dense or complex, that signals low quality. High readability keeps readers on-page longer — a direct boost to dwell time, which SEO research consistently links to higher rankings.</p>
+<p>Check your current readability score instantly using our <a href="/">Reading Time Calculator with Readability Score</a> — just paste your text and see your Flesch score in real time.</p>
+
+<h2>Understanding Flesch Reading Ease Scores</h2>
+<ul>
+  <li><strong>90–100:</strong> Very Easy — 5th grade level. Comic books, simple instructions.</li>
+  <li><strong>80–89:</strong> Easy — General blog audiences. Most popular online content.</li>
+  <li><strong>70–79:</strong> Fairly Easy — Ideal for mainstream SEO content.</li>
+  <li><strong>60–69:</strong> Standard — Newspaper level. Still widely accessible.</li>
+  <li><strong>50–59:</strong> Fairly Difficult — High school / advanced readers.</li>
+  <li><strong>30–49:</strong> Difficult — College level. Academic blogs, technical guides.</li>
+  <li><strong>0–29:</strong> Very Difficult — Professional / legal / academic texts.</li>
+</ul>
+<p>For most blogs, <strong>60–75</strong> is the sweet spot — accessible enough to retain casual readers while substantive enough to rank for competitive keywords.</p>
+
+<h2>7 Techniques to Improve Your Readability Score</h2>
+<h3>1. Shorten Your Sentences</h3>
+<p>The Flesch formula heavily penalizes long sentences. Aim for an average of 15–20 words per sentence. When in doubt, split it with a period or an em dash.</p>
+<h3>2. Use Simpler Words</h3>
+<p>Every syllable counts in the Flesch formula. "Use" beats "utilize." "Show" beats "demonstrate." "Help" beats "facilitate." Plain language isn't dumbing down — it's respecting your reader's time.</p>
+<h3>3. Write Like You Speak</h3>
+<p>Read your draft aloud. Wherever you stumble or pause unnaturally, rewrite. If it flows in speech, it'll read well on screen — and your readability score will reflect this.</p>
+<h3>4. Break Up Paragraphs</h3>
+<p>Online readers scan before they read. Short paragraphs (3–5 sentences max) with white space between them feel approachable. Dense paragraphs feel like walls — readers bounce.</p>
+<h3>5. Use H2 and H3 Subheadings</h3>
+<p>Subheadings let scanners find what they need instantly. They also signal to Google the structure of your content. A well-structured article with clear headings typically outranks an unformatted wall of text. This also affects reading time — see our post on <a href="/blog/why-display-reading-time-on-blog">why displaying reading time matters</a>.</p>
+<h3>6. Use Bullet Points and Lists</h3>
+<p>Lists reduce the cognitive load of absorbing multiple items. They're also visually distinct, which breaks reading monotony and reduces perceived difficulty.</p>
+<h3>7. Eliminate Unnecessary Jargon</h3>
+<p>Industry jargon isn't bad — it signals expertise. But unexplained jargon is a readability killer. If you must use a technical term, define it in plain language immediately after.</p>
+
+<h2>The Relationship Between Readability and Reading Time</h2>
+<p>Easier-to-read content gets read to completion more often. When more readers finish your article, dwell time increases. This is why understanding both your <a href="/">reading time</a> and readability score together gives a complete picture of your content's accessibility.</p>
+
+<h2>Conclusion</h2>
+<p>Improving your readability score isn't about writing "simple" content — it's about writing <em>clear</em> content. The world's most respected writers and journalists write at the 7th–9th grade level not because their ideas are simple, but because they want to be understood. Check your score, apply these 7 techniques, and watch your reader retention climb. Use our <a href="/">Readability Score analyzer</a> to measure your progress instantly.</p>
+`.trim()
+  },
+  {
+    slug: "improve-readability-score-blog-ko",
+    language: "ko",
+    translationGroup: "readability-guide",
+    title: "블로그 가독성 점수(Readability Score) 높이는 7가지 방법 (SEO 완전 가이드)",
+    description: "Flesch Reading Ease 알고리즘의 원리와 점수별 의미, 그리고 블로그 가독성을 높여 SEO 순위를 올리는 실용적인 7가지 기법을 알아봅니다.",
+    date: "2026-03-02",
+    category: "SEO 팁",
+    keywords: ["가독성 점수", "Flesch Reading Ease", "블로그 SEO", "콘텐츠 가독성", "글쓰기 개선", "SEO 팁"],
+    content: `
+<h2>가독성 점수란? SEO에 왜 중요한가?</h2>
+<p>가독성 점수는 텍스트가 얼마나 읽기 쉬운지를 수치로 나타낸 것입니다. 가장 널리 쓰이는 기준은 <strong>Flesch Reading Ease</strong>로, 0~100 척도에서 점수가 높을수록 읽기 쉬운 글입니다.</p>
+<p>구글은 사용자 경험을 중요시합니다. 글이 너무 어렵고 복잡해 독자가 이탈하면 품질이 낮다는 신호로 받아들입니다. 높은 가독성은 독자의 체류 시간을 늘리고, 이는 직접적으로 검색 순위 상승으로 이어집니다.</p>
+<p>지금 바로 <a href="/">읽기 시간 계산기의 가독성 분석 기능</a>으로 본인 글의 Flesch 점수를 확인해 보세요.</p>
+
+<h2>Flesch 점수별 의미</h2>
+<ul>
+  <li><strong>90~100:</strong> 매우 쉬움 — 누구나 이해 가능</li>
+  <li><strong>70~79:</strong> 비교적 쉬움 — 일반 블로그 SEO 최적 구간</li>
+  <li><strong>60~69:</strong> 보통 — 신문 기사 수준, 대부분 이해 가능</li>
+  <li><strong>50~59:</strong> 다소 어려움 — 고등학생 이상 수준</li>
+  <li><strong>30~49:</strong> 어려움 — 대학 교재, 전문 기술 블로그</li>
+  <li><strong>0~29:</strong> 매우 어려움 — 전문 논문, 법률 문서</li>
+</ul>
+<p>대부분의 블로그에는 <strong>60~75점</strong>이 이상적입니다.</p>
+
+<h2>가독성 높이는 7가지 기법</h2>
+<h3>1. 문장을 짧게 쓰기</h3>
+<p>Flesch 공식은 긴 문장에 강한 패널티를 부여합니다. 문장당 평균 15~20단어를 목표로 하세요.</p>
+<h3>2. 쉬운 단어 선택</h3>
+<p>음절이 많은 단어일수록 점수가 낮아집니다. '활용하다' 대신 '쓰다', '도모하다' 대신 '추진하다'처럼 쉬운 단어를 써보세요.</p>
+<h3>3. 말하듯 쓰기</h3>
+<p>초안을 소리 내어 읽어보세요. 어색하게 걸리는 부분이 바로 고쳐야 할 곳입니다.</p>
+<h3>4. 문단 짧게 나누기</h3>
+<p>인터넷 독자는 훑어보고 나서 읽습니다. 문단당 3~5문장을 유지하고 충분한 여백을 주세요.</p>
+<h3>5. H2·H3 제목 활용</h3>
+<p>소제목은 독자가 원하는 정보를 즉시 찾게 해줍니다. 구조적인 글이 비구조적인 글보다 검색 순위에서 유리합니다. <a href="/blog/why-display-reading-time-on-blog-ko">읽기 시간 표시의 중요성</a>도 함께 읽어보세요.</p>
+<h3>6. 글머리 기호와 목록 사용</h3>
+<p>목록은 여러 항목을 한 번에 소화하는 인지적 부담을 줄여줍니다.</p>
+<h3>7. 불필요한 전문 용어 제거</h3>
+<p>전문 용어 자체는 나쁘지 않지만, 설명 없이 사용하면 가독성을 크게 낮춥니다.</p>
+
+<h2>결론</h2>
+<p>가독성을 높이는 것은 '쉬운 글'이 아니라 '명확한 글'을 쓰는 것입니다. <a href="/">가독성 점수 분석기</a>로 지금 바로 점수를 측정하고 위 7가지 기법을 적용해 보세요.</p>
+`.trim()
+  },
+  {
+    slug: "improve-readability-score-blog-es",
+    language: "es",
+    translationGroup: "readability-guide",
+    title: "Cómo mejorar la puntuación de legibilidad de tu blog para SEO (Guía práctica)",
+    description: "Una alta puntuación de legibilidad significa más lectores que terminan tus artículos. Aprende sobre el algoritmo Flesch Reading Ease y 7 técnicas para mejorar la legibilidad de tu blog.",
+    date: "2026-03-02",
+    category: "Consejos SEO",
+    keywords: ["puntuación legibilidad", "Flesch Reading Ease", "SEO blog", "legibilidad contenido", "mejorar escritura", "SEO tips"],
+    content: `
+<h2>¿Qué es la puntuación de legibilidad y por qué importa para el SEO?</h2>
+<p>La puntuación de legibilidad mide qué tan fácil o difícil es leer un texto. La fórmula más usada es el <strong>Índice de Legibilidad de Flesch</strong> — una escala de 0 a 100 donde mayor puntuación significa lectura más fácil.</p>
+<p>Google valora la experiencia del usuario. Si los lectores abandonan tu contenido por ser demasiado denso, eso señala baja calidad. Verifica tu puntuación actual con nuestra <a href="/">Calculadora de Tiempo de Lectura con Análisis de Legibilidad</a>.</p>
+
+<h2>Significado de las puntuaciones Flesch</h2>
+<ul>
+  <li><strong>90–100:</strong> Muy Fácil — Nivel de primaria</li>
+  <li><strong>70–79:</strong> Bastante Fácil — Ideal para SEO de blogs</li>
+  <li><strong>60–69:</strong> Normal — Nivel de periódico</li>
+  <li><strong>50–59:</strong> Bastante Difícil — Nivel de bachillerato</li>
+  <li><strong>30–49:</strong> Difícil — Nivel universitario</li>
+  <li><strong>0–29:</strong> Muy Difícil — Textos profesionales o académicos</li>
+</ul>
+<p>Para la mayoría de blogs, <strong>60–75</strong> es el rango óptimo.</p>
+
+<h2>7 técnicas para mejorar tu puntuación de legibilidad</h2>
+<h3>1. Acorta las oraciones</h3>
+<p>La fórmula Flesch penaliza fuertemente las oraciones largas. Apunta a un promedio de 15–20 palabras por oración.</p>
+<h3>2. Usa palabras más simples</h3>
+<p>Cada sílaba cuenta en la fórmula Flesch. "Usar" supera a "utilizar". El lenguaje sencillo no es simplificar — es respetar el tiempo del lector.</p>
+<h3>3. Escribe como hablas</h3>
+<p>Lee tu borrador en voz alta. Donde te tropieces, reescribe. Si fluye en el habla, leerá bien en pantalla.</p>
+<h3>4. Divide los párrafos</h3>
+<p>Los lectores en línea escanean antes de leer. Párrafos cortos (3–5 oraciones) con espacio en blanco son más accesibles.</p>
+<h3>5. Usa subtítulos H2 y H3</h3>
+<p>Los subtítulos permiten a los lectores encontrar lo que necesitan al instante. También indica a Google la estructura de tu contenido. Ver también: <a href="/blog/why-display-reading-time-on-blog-es">por qué mostrar el tiempo de lectura importa</a>.</p>
+<h3>6. Usa listas y viñetas</h3>
+<p>Las listas reducen la carga cognitiva y rompen la monotonía visual.</p>
+<h3>7. Elimina la jerga innecesaria</h3>
+<p>La jerga no explicada arruina la legibilidad. Si usas un término técnico, defínelo inmediatamente.</p>
+
+<h2>Conclusión</h2>
+<p>Mejorar tu puntuación de legibilidad no es escribir contenido "simple" — es escribir contenido <em>claro</em>. Usa nuestro <a href="/">analizador de Legibilidad</a> para medir tu progreso al instante.</p>
+`.trim()
+  },
+  // ── Group 9: YouTube Script Length ────────────────────────────────────────
+  {
+    slug: "ideal-youtube-script-length-by-video-type",
+    language: "en",
+    translationGroup: "youtube-script-guide",
+    title: "Ideal YouTube Script Length by Video Type (With Reading Time Formula)",
+    description: "How long should a YouTube script be? Learn the exact word count and reading time targets for Shorts, tutorials, vlogs, and long-form YouTube videos — with a formula you can use today.",
+    date: "2026-03-02",
+    category: "Content Creation",
+    keywords: ["YouTube script length", "YouTube script word count", "video script", "YouTube content strategy", "script writing", "reading time"],
+    content: `
+<h2>Why Script Length Determines YouTube Success</h2>
+<p>YouTube's algorithm rewards watch time — the total minutes viewers spend watching your videos. A script that's too short leaves value on the table. A script that's too long loses viewers before your call to action. Getting your script length right from the start is one of the highest-leverage decisions a YouTuber can make.</p>
+<p>The fastest way to calibrate your script is to write it, then paste it into our <a href="/">Reading Time Calculator</a> and set the WPM to your speaking pace. Your reading time = your video's approximate runtime.</p>
+
+<h2>YouTube Script Length by Video Format</h2>
+<h3>YouTube Shorts (Under 60 Seconds)</h3>
+<p>Target: <strong>100–150 words</strong> at 120–150 WPM speaking pace. Shorts thrive on immediate hooks — your first sentence must deliver the core value. No introduction, no filler.</p>
+<h3>Standard "How-To" / Tutorial Videos (7–12 Minutes)</h3>
+<p>Target: <strong>900–1,800 words</strong>. This is YouTube's sweet spot for educational content. Structure: hook (30 sec) → problem statement (1 min) → step-by-step solution (5–8 min) → CTA (1 min).</p>
+<h3>Vlogs and Lifestyle Videos (5–10 Minutes)</h3>
+<p>Target: <strong>600–1,500 words</strong>. Vlogs use a looser, more conversational script — often just bullet-point outlines rather than word-for-word scripts. Even so, calculating your target word count prevents videos that ramble past their natural endpoint.</p>
+<h3>Long-Form Deep Dives (15–30 Minutes)</h3>
+<p>Target: <strong>2,000–4,500 words</strong>. Documentary-style or analysis videos require dense, carefully researched scripts. Readability matters even more here — check your <a href="/blog/improve-readability-score-blog">readability score</a> to ensure complex ideas are communicated clearly.</p>
+<h3>Podcast-Style Videos (30–90 Minutes)</h3>
+<p>Unscripted or lightly scripted. Use talking points rather than full scripts. Have a structured outline with timing targets for each section.</p>
+
+<h2>The YouTube Script Formula</h2>
+<p>Here's a simple formula: <strong>Target Video Length (minutes) × Your Speaking WPM = Script Word Count</strong></p>
+<p>Example: You want a 10-minute video and speak at 140 WPM → 10 × 140 = 1,400 words.</p>
+<p>Use our <a href="/">Reading Time Calculator with WPM slider</a> to reverse-engineer your script: paste your draft, set your WPM, and check if the reading time matches your target video length. Refer to our <a href="/blog/wpm-reading-speed-complete-guide">WPM reading speed guide</a> to find your natural speaking pace.</p>
+
+<h2>Script Structure Best Practices</h2>
+<h3>The First 30 Seconds Are Everything</h3>
+<p>YouTube's audience retention data consistently shows that 30–40% of viewers leave within the first 30 seconds. Your script's opening must immediately answer: "Why should I keep watching this?" Lead with the payoff, not the setup.</p>
+<h3>Pattern Interrupts Every 2–3 Minutes</h3>
+<p>Build "pattern interrupts" into your script every 2–3 minutes — a new angle, a surprising statistic, or a shift in topic. These re-engage viewers who are starting to drift.</p>
+<h3>Your CTA Must Be Scripted</h3>
+<p>Most YouTubers freestyle their calls to action — and most CTAs are forgettable as a result. Write your subscribe/like/comment request word-for-word in your script and deliver it with the same energy as your best content.</p>
+
+<h2>Practice with Teleprompter Mode</h2>
+<p>Once your script is written and timed, practice delivery using our <a href="/">Teleprompter Mode</a>. Set the scroll speed to match your speaking WPM. This allows you to film with natural eye contact while staying perfectly on script — the same technique used by professional news anchors. See our full guide on <a href="/blog/how-to-use-teleprompter-script-for-presentations">using a teleprompter effectively</a>.</p>
+
+<h2>Conclusion</h2>
+<p>Script length isn't a creative constraint — it's a creative foundation. Know your format, calculate your word count target, and use our <a href="/">Reading Time Calculator</a> to verify your script before you hit record.</p>
+`.trim()
+  },
+  {
+    slug: "ideal-youtube-script-length-by-video-type-ko",
+    language: "ko",
+    translationGroup: "youtube-script-guide",
+    title: "유튜브 영상 유형별 최적 스크립트 분량 완전 가이드 (읽기 시간 공식 포함)",
+    description: "유튜브 스크립트는 얼마나 길어야 할까요? 쇼츠, 튜토리얼, 브이로그, 장편 영상별 목표 단어 수와 읽기 시간을 계산하는 공식을 알려드립니다.",
+    date: "2026-03-02",
+    category: "콘텐츠 제작",
+    keywords: ["유튜브 스크립트 분량", "유튜브 원고 단어 수", "영상 스크립트", "유튜브 콘텐츠 전략", "읽기 시간"],
+    content: `
+<h2>스크립트 분량이 유튜브 성과를 결정하는 이유</h2>
+<p>유튜브 알고리즘은 시청 시간(Watch Time)에 보상을 줍니다. 너무 짧은 스크립트는 가치를 남기고, 너무 긴 스크립트는 CTA 전에 시청자를 잃습니다. 처음부터 정확한 분량을 설정하는 것이 유튜버가 할 수 있는 가장 높은 레버리지 결정 중 하나입니다.</p>
+<p>스크립트를 작성한 후 <a href="/">읽기 시간 계산기</a>에 붙여넣고 WPM을 본인의 말하기 속도로 설정하면, 영상의 예상 런타임을 즉시 확인할 수 있습니다.</p>
+
+<h2>영상 유형별 스크립트 분량</h2>
+<h3>유튜브 쇼츠 (60초 이하)</h3>
+<p>목표: <strong>100~150단어</strong> (말하기 속도 120~150 WPM 기준). 첫 문장이 핵심 가치를 전달해야 합니다. 도입부나 채우기 없이 바로 본론으로.</p>
+<h3>일반 튜토리얼 / 하우투 영상 (7~12분)</h3>
+<p>목표: <strong>900~1,800단어</strong>. 유튜브에서 교육 콘텐츠의 황금 구간입니다. 구성: 훅(30초) → 문제 제시(1분) → 단계별 해결(5~8분) → CTA(1분).</p>
+<h3>브이로그 / 라이프스타일 영상 (5~10분)</h3>
+<p>목표: <strong>600~1,500단어</strong>. 브이로그는 더 자연스러운 스크립트를 사용합니다. 목표 단어 수를 미리 계산하면 자연스러운 끝 지점을 넘어 길어지는 것을 방지합니다.</p>
+<h3>심층 분석 영상 (15~30분)</h3>
+<p>목표: <strong>2,000~4,500단어</strong>. 복잡한 내용을 명확하게 전달하려면 <a href="/blog/improve-readability-score-blog-ko">가독성 점수</a>도 함께 확인하세요.</p>
+
+<h2>유튜브 스크립트 계산 공식</h2>
+<p><strong>목표 영상 길이(분) × 말하기 WPM = 스크립트 단어 수</strong></p>
+<p>예시: 10분 영상 목표 + 말하기 속도 140 WPM → 10 × 140 = 1,400단어.</p>
+<p><a href="/">WPM 슬라이더 읽기 시간 계산기</a>에 스크립트를 붙여넣고 읽기 시간이 목표 영상 길이와 일치하는지 확인하세요. <a href="/blog/wpm-reading-speed-complete-guide-ko">WPM 가이드</a>에서 본인의 자연스러운 말하기 속도를 찾아보세요.</p>
+
+<h2>스크립트 구조 모범 사례</h2>
+<h3>처음 30초가 전부다</h3>
+<p>유튜브 데이터에 따르면 시청자의 30~40%가 첫 30초 안에 이탈합니다. 스크립트 도입부는 즉시 "왜 계속 봐야 하는가?"에 답해야 합니다. 결론부터 시작하세요.</p>
+<h3>패턴 인터럽트 삽입</h3>
+<p>2~3분마다 새로운 관점, 놀라운 통계, 또는 주제 전환을 스크립트에 넣으세요. 집중력이 흐려지는 시청자를 다시 잡아주는 역할을 합니다.</p>
+
+<h2>텔레프롬프터 모드로 연습하기</h2>
+<p>스크립트 작성과 시간 계산이 끝나면 <a href="/">텔레프롬프터 모드</a>로 전달 연습을 하세요. <a href="/blog/how-to-use-teleprompter-script-for-presentations-ko">텔레프롬프터 완전 가이드</a>에서 자세한 방법을 확인할 수 있습니다.</p>
+
+<h2>결론</h2>
+<p>스크립트 분량은 창작의 제약이 아니라 창작의 기반입니다. <a href="/">읽기 시간 계산기</a>로 촬영 전에 스크립트 분량을 확인하세요.</p>
+`.trim()
+  },
+  {
+    slug: "ideal-youtube-script-length-by-video-type-es",
+    language: "es",
+    translationGroup: "youtube-script-guide",
+    title: "Longitud ideal de un guión de YouTube por tipo de video (Con fórmula de tiempo de lectura)",
+    description: "¿Cuánto debe durar un guión de YouTube? Aprende el recuento de palabras y el tiempo de lectura objetivos para Shorts, tutoriales, vlogs y videos de formato largo.",
+    date: "2026-03-02",
+    category: "Creación de Contenido",
+    keywords: ["longitud guión YouTube", "palabras guión video", "guión YouTube", "estrategia contenido YouTube", "tiempo de lectura"],
+    content: `
+<h2>Por qué la longitud del guión determina el éxito en YouTube</h2>
+<p>El algoritmo de YouTube premia el tiempo de visualización. Un guión demasiado corto deja valor sobre la mesa. Uno demasiado largo pierde espectadores antes de tu llamada a la acción. La forma más rápida de calibrar tu guión es escribirlo y pegarlo en nuestra <a href="/">Calculadora de Tiempo de Lectura</a>.</p>
+
+<h2>Longitud del guión por formato de video</h2>
+<h3>YouTube Shorts (menos de 60 segundos)</h3>
+<p>Objetivo: <strong>100–150 palabras</strong>. Tu primera oración debe entregar el valor central. Sin intro, sin relleno.</p>
+<h3>Videos de tutorial / How-To (7–12 minutos)</h3>
+<p>Objetivo: <strong>900–1.800 palabras</strong>. El punto ideal de YouTube para contenido educativo. Estructura: gancho (30 seg) → problema (1 min) → solución paso a paso (5–8 min) → CTA (1 min).</p>
+<h3>Vlogs y videos de estilo de vida (5–10 minutos)</h3>
+<p>Objetivo: <strong>600–1.500 palabras</strong>. Los vlogs usan un guión más conversacional. Calcular el recuento objetivo evita que el video se extienda más allá de su punto natural de fin.</p>
+<h3>Videos de análisis profundo (15–30 minutos)</h3>
+<p>Objetivo: <strong>2.000–4.500 palabras</strong>. Verifica tu <a href="/blog/improve-readability-score-blog-es">puntuación de legibilidad</a> para comunicar ideas complejas con claridad.</p>
+
+<h2>La fórmula del guión de YouTube</h2>
+<p><strong>Duración objetivo (minutos) × WPM al hablar = Palabras del guión</strong></p>
+<p>Ejemplo: 10 minutos × 140 WPM = 1.400 palabras.</p>
+<p>Usa nuestra <a href="/">Calculadora con deslizador de WPM</a> para verificar si el tiempo de lectura de tu guión coincide con la duración objetivo. Consulta nuestra <a href="/blog/wpm-reading-speed-complete-guide-es">guía de WPM</a> para encontrar tu ritmo de habla natural.</p>
+
+<h2>Practica con el Modo Teleprompter</h2>
+<p>Una vez escrito y cronometrado tu guión, practica con nuestro <a href="/">Modo Teleprompter</a>. Consulta la guía completa sobre <a href="/blog/how-to-use-teleprompter-script-for-presentations-es">cómo usar un teleprompter eficazmente</a>.</p>
+
+<h2>Conclusión</h2>
+<p>La longitud del guión no es una limitación creativa — es una base creativa. Usa nuestra <a href="/">Calculadora de Tiempo de Lectura</a> para verificar tu guión antes de grabar.</p>
+`.trim()
+  },
+
+  // ── Group 10: Email Newsletter Reading Time ────────────────────────────────
+  {
+    slug: "optimal-email-newsletter-reading-time",
+    language: "en",
+    translationGroup: "newsletter-guide",
+    title: "Optimal Email Newsletter Reading Time: How Long Should Your Emails Be?",
+    description: "Research-backed guide to email newsletter length. Learn the ideal word count for cold emails, nurture sequences, and long-form newsletters — and how reading time affects open and click rates.",
+    date: "2026-03-02",
+    category: "Email Marketing",
+    keywords: ["email newsletter length", "email reading time", "newsletter word count", "email marketing", "open rate", "click rate"],
+    content: `
+<h2>Why Email Reading Time Is a Hidden Performance Lever</h2>
+<p>Email marketers obsess over subject lines and send times — but the length of the email itself is one of the most underrated performance variables. An email that's too long gets skimmed or deleted. An email that's too short feels incomplete or abrupt. Match your email length to your reader's context and intent, and your click-through rates will improve measurably.</p>
+<p>Before sending your next newsletter, paste the body copy into our <a href="/">Reading Time Calculator</a> to see exactly how long it will take your subscribers to read. Then ask yourself: is this the right commitment for where they are in the funnel?</p>
+
+<h2>Email Length by Type</h2>
+<h3>Cold Outreach Emails: 50–125 Words (Under 1 Minute)</h3>
+<p>Cold emails must earn every second. Research by Boomerang found that emails with <strong>50–125 words</strong> receive the highest response rates — around 50% better than longer emails. The goal is a single, compelling ask — not a presentation.</p>
+<h3>Transactional Emails: 50–200 Words</h3>
+<p>Order confirmations, receipts, and account notifications should be scannable in seconds. Lead with the critical information (order number, delivery date, action required) and keep everything else minimal.</p>
+<h3>Nurture Sequence Emails: 200–500 Words (1–3 Minutes)</h3>
+<p>Relationship-building emails in an automated sequence need enough content to provide genuine value, but not so much that they feel like an article. This range consistently outperforms both shorter and longer alternatives in A/B tests for engagement sequences.</p>
+<h3>Newsletter Editions: 500–1,000 Words (3–7 Minutes)</h3>
+<p>Newsletter subscribers expect a fuller read. The ideal range for weekly digest-style newsletters is <strong>500–800 words</strong>. Going above 1,000 words significantly reduces completion rates unless your audience is specifically there for long-form content.</p>
+<h3>Long-Form Newsletter (Substack / Paid Newsletters): 1,000–3,000 Words</h3>
+<p>Paid newsletter subscribers have made a financial commitment — they want depth. Publications like Morning Brew, The Hustle, and premium Substacks routinely publish 1,500–3,000 word editions to audiences with above-average completion rates. This is the one context where longer emails reliably outperform short ones.</p>
+
+<h2>The Reading Time Subject Line Strategy</h2>
+<p>Including reading time in your subject line consistently lifts open rates and click rates. Test these formats:</p>
+<ul>
+  <li>"The SEO mistake killing your traffic (3 min read)"</li>
+  <li>"5 content tricks I used this week 👉 2 min"</li>
+  <li>"Your weekly digest — 4 min read inside"</li>
+</ul>
+<p>The transparency signals respect for the reader's time — and that trust carries into the content itself. This principle applies equally to blog content. See our post on <a href="/blog/why-display-reading-time-on-blog">why displaying reading time boosts blog engagement</a>.</p>
+
+<h2>Readability in Email: Even More Critical Than Blogs</h2>
+<p>Email is read in distracting environments — phones, commutes, between meetings. Your <a href="/blog/improve-readability-score-blog">readability score</a> matters even more in email than on a webpage. Aim for a Flesch Reading Ease score above 65 for any email that needs to be understood and acted upon. Short sentences, one idea per paragraph, and bold key phrases are your best tools.</p>
+
+<h2>Practical Steps to Optimize Your Newsletter Length</h2>
+<ol>
+  <li>Write your first draft without worrying about length</li>
+  <li>Paste it into our <a href="/">Reading Time Calculator</a> — note the reading time</li>
+  <li>Compare it to the target range for your email type above</li>
+  <li>Edit ruthlessly: every sentence should earn its place</li>
+  <li>Check your readability score before sending</li>
+</ol>
+
+<h2>Conclusion</h2>
+<p>There is no universally correct email length — but there is definitely a correct length for your email type, audience, and funnel position. Use reading time as your guide, not word count in the abstract. Our <a href="/">Reading Time Calculator</a> makes this a 10-second check instead of a guessing game.</p>
+`.trim()
+  },
+  {
+    slug: "optimal-email-newsletter-reading-time-ko",
+    language: "ko",
+    translationGroup: "newsletter-guide",
+    title: "이메일 뉴스레터 최적 읽기 시간: 이메일은 얼마나 길어야 할까?",
+    description: "콜드 이메일, 육성 시퀀스, 장편 뉴스레터별 최적 단어 수와 읽기 시간 — 그리고 읽기 시간이 이메일 오픈율과 클릭률에 미치는 영향을 분석합니다.",
+    date: "2026-03-02",
+    category: "이메일 마케팅",
+    keywords: ["이메일 뉴스레터 길이", "이메일 읽기 시간", "뉴스레터 단어 수", "이메일 마케팅", "오픈율", "클릭율"],
+    content: `
+<h2>이메일 읽기 시간이 숨겨진 성과 지표인 이유</h2>
+<p>이메일 마케터들은 제목 줄과 발송 시간에 집착하지만, 이메일 자체의 길이는 가장 과소평가된 성과 변수 중 하나입니다. 너무 길면 훑다가 삭제되고, 너무 짧으면 불완전하게 느껴집니다. 다음 뉴스레터를 발송하기 전에 본문을 <a href="/">읽기 시간 계산기</a>에 붙여넣어 구독자가 읽는 데 얼마나 걸리는지 먼저 확인해 보세요.</p>
+
+<h2>이메일 유형별 최적 길이</h2>
+<h3>콜드 아웃리치 이메일: 50~125단어 (1분 이내)</h3>
+<p>Boomerang 연구에 따르면 <strong>50~125단어</strong> 이메일이 가장 높은 응답률(긴 이메일 대비 약 50% 향상)을 기록합니다. 단 하나의 명확한 요청에 집중하세요.</p>
+<h3>육성 시퀀스 이메일: 200~500단어 (1~3분)</h3>
+<p>관계 구축 이메일은 진정한 가치를 제공하면서도 아티클처럼 느껴지지 않아야 합니다. A/B 테스트에서 이 범위가 참여 시퀀스에서 가장 좋은 성과를 냅니다.</p>
+<h3>뉴스레터 에디션: 500~1,000단어 (3~7분)</h3>
+<p>뉴스레터 구독자는 충분한 콘텐츠를 기대합니다. 주간 다이제스트 스타일은 <strong>500~800단어</strong>가 이상적입니다. 1,000단어를 넘으면 완독률이 크게 떨어집니다.</p>
+<h3>장편 뉴스레터 (유료 구독): 1,000~3,000단어</h3>
+<p>유료 구독자는 깊이를 원합니다. 이 경우에만 긴 이메일이 짧은 이메일보다 안정적으로 좋은 성과를 냅니다.</p>
+
+<h2>제목 줄에 읽기 시간 넣기 전략</h2>
+<p>제목 줄에 읽기 시간을 포함하면 오픈율과 클릭률이 모두 상승합니다:</p>
+<ul>
+  <li>"트래픽을 죽이는 SEO 실수 (3분 읽기)"</li>
+  <li>"이번 주 사용한 5가지 콘텐츠 팁 👉 2분"</li>
+  <li>"주간 다이제스트 — 4분 읽기"</li>
+</ul>
+<p>이 원칙은 블로그에도 동일하게 적용됩니다. <a href="/blog/why-display-reading-time-on-blog-ko">읽기 시간 표시가 블로그 체류 시간을 높이는 이유</a>도 읽어보세요.</p>
+
+<h2>이메일에서의 가독성</h2>
+<p>이메일은 스마트폰, 출퇴근길, 회의 사이에 읽힙니다. <a href="/blog/improve-readability-score-blog-ko">가독성 점수</a>는 블로그보다 이메일에서 더욱 중요합니다. 즉각적인 행동이 필요한 이메일은 Flesch 점수 65 이상을 목표로 하세요.</p>
+
+<h2>결론</h2>
+<p>모든 상황에 맞는 이메일 길이는 없지만, 유형과 맥락에 맞는 정확한 길이는 반드시 있습니다. <a href="/">읽기 시간 계산기</a>를 발송 전 10초짜리 체크리스트로 활용하세요.</p>
+`.trim()
+  },
+  {
+    slug: "optimal-email-newsletter-reading-time-es",
+    language: "es",
+    translationGroup: "newsletter-guide",
+    title: "Tiempo de lectura óptimo para newsletters: ¿Cuán largos deben ser tus emails?",
+    description: "Guía basada en investigación sobre la longitud de newsletters. Aprende el recuento ideal de palabras para emails fríos, secuencias de nutrición y newsletters de formato largo.",
+    date: "2026-03-02",
+    category: "Email Marketing",
+    keywords: ["longitud newsletter", "tiempo lectura email", "palabras newsletter", "email marketing", "tasa apertura", "tasa clic"],
+    content: `
+<h2>Por qué el tiempo de lectura del email es una palanca de rendimiento oculta</h2>
+<p>Los especialistas en email marketing se obsesionan con las líneas de asunto y los horarios de envío, pero la longitud del email es una de las variables de rendimiento más subestimadas. Antes de enviar tu próximo newsletter, pega el cuerpo en nuestra <a href="/">Calculadora de Tiempo de Lectura</a> para ver exactamente cuánto tardarán tus suscriptores en leerlo.</p>
+
+<h2>Longitud de email por tipo</h2>
+<h3>Emails de prospección en frío: 50–125 palabras (menos de 1 minuto)</h3>
+<p>Según Boomerang, los emails de <strong>50–125 palabras</strong> reciben las tasas de respuesta más altas — un 50% mejor que los más largos. El objetivo es una solicitud clara y convincente.</p>
+<h3>Emails de secuencia de nutrición: 200–500 palabras (1–3 minutos)</h3>
+<p>Los emails de construcción de relaciones necesitan suficiente contenido para aportar valor real, pero no tanto que parezcan un artículo.</p>
+<h3>Ediciones de newsletter: 500–1.000 palabras (3–7 minutos)</h3>
+<p>Los suscriptores de newsletters esperan una lectura más completa. El rango ideal para boletines semanales es <strong>500–800 palabras</strong>. Superar las 1.000 palabras reduce significativamente las tasas de finalización.</p>
+<h3>Newsletter de formato largo (Substack / Pago): 1.000–3.000 palabras</h3>
+<p>Los suscriptores que pagan han hecho un compromiso financiero — quieren profundidad. Este es el único contexto donde los emails más largos superan consistentemente a los cortos.</p>
+
+<h2>La estrategia del tiempo de lectura en el asunto</h2>
+<p>Incluir el tiempo de lectura en tu línea de asunto mejora tanto las tasas de apertura como de clics:</p>
+<ul>
+  <li>"El error SEO que mata tu tráfico (3 min de lectura)"</li>
+  <li>"5 trucos de contenido que usé esta semana 👉 2 min"</li>
+  <li>"Tu resumen semanal — 4 min de lectura"</li>
+</ul>
+<p>Este principio se aplica igualmente al contenido de blog. Ver: <a href="/blog/why-display-reading-time-on-blog-es">por qué mostrar el tiempo de lectura mejora el engagement</a>.</p>
+
+<h2>Legibilidad en email: más crítica que en blogs</h2>
+<p>El email se lee en entornos con distracciones. Tu <a href="/blog/improve-readability-score-blog-es">puntuación de legibilidad</a> importa aún más en email que en una página web. Apunta a una puntuación Flesch superior a 65 para cualquier email que requiera comprensión y acción.</p>
+
+<h2>Conclusión</h2>
+<p>No existe una longitud de email universalmente correcta, pero sí existe una longitud correcta para tu tipo de email, audiencia y posición en el embudo. Usa el tiempo de lectura como guía, no el recuento de palabras en abstracto. Nuestra <a href="/">Calculadora de Tiempo de Lectura</a> hace de esto una verificación de 10 segundos.</p>
+`.trim()
+  },
 ];
