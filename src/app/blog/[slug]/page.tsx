@@ -25,11 +25,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const languages: Record<string, string> = {};
   related.forEach((t) => {
-    languages[t.language] = `https://readingtime.4kdrivewalk.com/blog/${t.slug}`;
+    languages[t.language] = `https://reading.4kdrivewalk.com/blog/${t.slug}`;
   });
   const enPost = related.find((t) => t.language === "en");
   if (enPost) {
-    languages["x-default"] = `https://readingtime.4kdrivewalk.com/blog/${enPost.slug}`;
+    languages["x-default"] = `https://reading.4kdrivewalk.com/blog/${enPost.slug}`;
   }
 
   return {
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: post.description,
     keywords: post.keywords,
     alternates: {
-      canonical: `https://readingtime.4kdrivewalk.com/blog/${post.slug}`,
+      canonical: `https://reading.4kdrivewalk.com/blog/${post.slug}`,
       languages,
     },
     openGraph: {
