@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   verification: {
     google: "47z3uMVzsCyw66vTGaSLLtCKy3vebHH5QOU4H3yCDR8", // Inheriting from project 1
     other: {
-      "naver-site-verification": "78fabd3edd2057c3616be3d192d8c81ddde1e667",
+      "naver-site-verification": "886e6d1e832734015781cbbdd53f9613bf16233d",
     },
   },
 };
