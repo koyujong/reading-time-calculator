@@ -7,14 +7,14 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://reading.4kdrivewalk.com"),
-  title: "읽기 시간 계산기 - Reading Time Calculator",
+  title: "Speech & Presentation Reading Time Calculator",
   description: "블로그, 기사 등의 텍스트를 읽는 데 걸리는 시간을 한국어 평균 읽기 속도 기준으로 직관적으로 산출해 주는 도구입니다.",
   keywords: "읽기시간계산, reading time calculator, 글자수세기, 평균읽기속도, 블로그체류시간",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "읽기 시간 계산기",
+    title: "Speech & Presentation Reading Time Calculator",
     description: "블로그 체류 시간을 늘리기 위한 직관적인 읽기 시간 계산 툴",
     locale: "ko_KR",
     type: "website",

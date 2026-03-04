@@ -2,7 +2,7 @@ export type Language = 'ko' | 'en' | 'es';
 
 export const translations = {
   ko: {
-    title: "읽기 시간 계산기",
+    title: "Speech & Presentation Reading Time Calculator",
     subtitle: "블로그, 기사 등의 텍스트를 붙여넣으세요. 평균 읽기 속도를 기준으로 시간을 예측합니다.",
     placeholder: "여기에 텍스트를 입력하거나 붙여넣으세요...",
     clear: "지우기",
@@ -15,7 +15,7 @@ export const translations = {
     statWords: "단어 수",
     unitChar: "자",
     unitWord: "단어",
-    seoTitle: "읽기 시간 계산기 | Reading Time Calculator",
+    seoTitle: "Speech & Presentation Reading Time Calculator",
     seoDesc: "블로그, 기사 등의 텍스트를 읽는 데 걸리는 시간을 한국어 평균 읽기 속도 기준으로 직관적으로 산출해 주는 도구입니다.",
     whyTitle: "읽기 시간 계산기를 왜 써야 하나요?",
     whyContent: "방문자가 글을 읽기 전에 대략적인 소요 시간을 알게 되면 심리적 부담이 줄어들어 체류 시간이 증가하는 효과가 있습니다. 블로그 포스팅 최상단에 '이 글을 읽는 데 O분 O초가 걸립니다'라는 안내 문구를 추가해 보세요. 독자의 이탈률을 낮추고 끝까지 읽게 만드는 훌륭한 전략이 될 수 있습니다.",
@@ -41,7 +41,7 @@ export const translations = {
     ],
   },
   en: {
-    title: "Reading Time Calculator",
+    title: "Speech & Presentation Reading Time Calculator",
     subtitle: "Paste your blog post or article text. We estimate the reading time based on average reading speed.",
     placeholder: "Type or paste your text here...",
     clear: "Clear",
@@ -54,7 +54,7 @@ export const translations = {
     statWords: "Word Count",
     unitChar: "chars",
     unitWord: "words",
-    seoTitle: "Reading Time Calculator | Estimate Reading Length",
+    seoTitle: "Speech & Presentation Reading Time Calculator",
     seoDesc: "Easily calculate the estimated reading time of any text, article, or blog post to improve user engagement and retention.",
     whyTitle: "Why use a Reading Time Calculator?",
     whyContent: "When visitors know the approximate reading time before starting an article, their psychological burden decreases, leading to higher retention rates. Try adding an 'Estimated reading time: X mins' notice to the top of your blog posts to reduce bounce rates and encourage reading to the end.",
@@ -80,7 +80,7 @@ export const translations = {
     ],
   },
   es: {
-    title: "Calculadora de Tiempo de Lectura",
+    title: "Speech & Presentation Reading Time Calculator",
     subtitle: "Pega el texto de tu blog o artículo. Estimamos el tiempo de lectura basándonos en la velocidad de lectura promedio.",
     placeholder: "Escribe o pega tu texto aquí...",
     clear: "Borrar",
@@ -93,7 +93,7 @@ export const translations = {
     statWords: "Número de palabras",
     unitChar: "caract",
     unitWord: "palabras",
-    seoTitle: "Calculadora de Tiempo de Lectura | Estimar longitud de artículo",
+    seoTitle: "Speech & Presentation Reading Time Calculator",
     seoDesc: "Calcula fácilmente el tiempo estimado de lectura de cualquier texto, artículo o entrada de blog para mejorar la participación del usuario.",
     whyTitle: "¿Por qué usar una calculadora de tiempo de lectura?",
     whyContent: "Cuando los visitantes conocen el tiempo aproximado de lectura antes de comenzar un artículo, su carga psicológica disminuye, lo que conduce a mayores tasas de retención. Intenta agregar un aviso de 'Tiempo estimado de lectura: X min' en la parte superior de tus publicaciones para reducir la tasa de rebote.",
