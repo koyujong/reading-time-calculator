@@ -700,7 +700,7 @@ export const blogPosts: BlogPost[] = [
 <p>If you display "5 min read" on your blog but your audience reads at 150 WPM (slower than your calculator assumes), that article will actually take them 8 minutes. This mismatch erodes trust. By letting readers — or yourself — <a href="/">adjust the WPM slider in our calculator</a>, you get a truthful estimate.</p>
 <h3>Speech and Presentation Planning</h3>
 <p>If you're preparing a 10-minute presentation, knowing your natural speaking WPM (usually 130–160) lets you precisely calculate the word count you need. Too many words = you'll rush. Too few = awkward silence.</p>
-<p>Check out our guide on <a href="/blog/how-to-use-teleprompter-script-for-presentations">using a teleprompter script effectively</a> to match your script length to your speaking pace.</p>
+<p>Check out our guide on <a href="/blog/ideal-blog-post-length-for-seo">ideal blog post length and reading time</a> to match your content length to your audience's attention span.</p>
 
 <h2>How to Improve Your Reading Speed</h2>
 <h3>Eliminate Subvocalization</h3>
@@ -746,7 +746,7 @@ export const blogPosts: BlogPost[] = [
 <h3>정확한 읽기 시간 표시</h3>
 <p>블로그에 '5분 읽기'라고 표시했지만 독자의 실제 읽기 속도가 150 WPM이라면, 그 글은 사실 8분이 걸립니다. 이 불일치는 신뢰를 떨어뜨립니다. <a href="/">계산기의 WPM 슬라이더</a>로 청중의 실제 속도에 맞는 정직한 예상 시간을 제공하세요.</p>
 <h3>발표 스크립트 분량 계산</h3>
-<p>10분 발표를 준비한다면, 본인의 말하기 속도(보통 130~160 WPM)를 알아야 필요한 단어 수를 정확히 계산할 수 있습니다. <a href="/blog/how-to-use-teleprompter-script-for-presentations-ko">텔레프롬프터 활용 가이드</a>도 함께 확인해 보세요.</p>
+<p>10분 발표를 준비한다면, 본인의 말하기 속도(보통 130~160 WPM)를 알아야 필요한 단어 수를 정확히 계산할 수 있습니다. <a href="/blog/ideal-blog-post-length-for-seo-ko">이상적인 블로그 글 길이 가이드</a>도 함께 확인해 보세요.</p>
 
 <h2>읽기 속도를 높이는 방법</h2>
 <h3>내재화된 발화(묵언화) 줄이기</h3>
@@ -788,7 +788,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Por qué el WPM importa en tu estrategia de contenido</h2>
 <p>Mostrar "5 min de lectura" cuando tu audiencia lee a 150 WPM genera desconfianza. Con el <a href="/">deslizador de WPM de nuestra calculadora</a>, obtienes una estimación honesta para cualquier audiencia.</p>
-<p>Si preparas presentaciones, consulta nuestra guía sobre <a href="/blog/how-to-use-teleprompter-script-for-presentations-es">cómo usar un teleprompter eficazmente</a>.</p>
+<p>Si preparas presentaciones, consulta nuestra guía sobre <a href="/blog/ideal-blog-post-length-for-seo-es">la longitud ideal de un artículo de blog</a> para ajustar mejor la duración de tu discurso.</p>
 
 <h2>Cómo mejorar tu velocidad de lectura</h2>
 <h3>Reducir la subvocalización</h3>
