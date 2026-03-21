@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
+import CountdownOverlay from "@/components/CountdownOverlay";
 import { calculateReadingTime } from "../utils/calculator";
 import { analyzeReadability } from "../utils/readability";
 import { Clock, FileText, Type, BarChart2, MonitorPlay, BookOpen } from "lucide-react";
@@ -19,6 +20,19 @@ export default function Home() {
   const [stats, setStats] = useState(calculateReadingTime(""));
   const [showTeleprompter, setShowTeleprompter] = useState(false);
   const [wpm, setWpm] = useState(200);
+
+  // Detailed Analysis States
+  const [showDetailed, setShowDetailed] = useState(false);
+  const [isCountdown, setIsCountdown] = useState(false);
+
+  const handleDetailedClick = () => {
+    setIsCountdown(true);
+  };
+
+  const handleCountdownComplete = useCallback(() => {
+    setShowDetailed(true);
+    setIsCountdown(false);
+  }, []);
 
   // Total reading seconds for teleprompter
   const totalReadingSeconds = stats.minutes * 60 + stats.seconds;
@@ -179,71 +193,85 @@ export default function Home() {
               {lang === "ko" ? "텔레프롬프터 모드로 연습하기" : lang === "es" ? "Practicar en Modo Teleprompter" : "Practice with Teleprompter"}
             </button>
 
-            {/* Detailed Stats Cards */}
-            <div className="grid grid-cols-2 gap-4">
-              <StatCard 
-                icon={<Type className="w-5 h-5 text-blue-500" />} 
-                label={t.statWithSpace} 
-                value={stats.charCountWithSpaces.toLocaleString()} 
-                unit={t.unitChar} 
-              />
-              <StatCard 
-                icon={<FileText className="w-5 h-5 text-teal-500" />} 
-                label={t.statWithoutSpace} 
-                value={stats.charCountWithoutSpaces.toLocaleString()} 
-                unit={t.unitChar} 
-              />
-              <StatCard 
-                icon={<BarChart2 className="w-5 h-5 text-orange-500" />} 
-                label={t.statWords} 
-                value={stats.wordCount.toLocaleString()} 
-                unit={t.unitWord}
-                className="col-span-2"
-              />
-            </div>
+            {/* Detailed Analysis Button or Results */}
+            {!showDetailed ? (
+              <button
+                onClick={handleDetailedClick}
+                disabled={isCountdown || !text.trim()}
+                className="w-full py-4 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-bold text-lg rounded-2xl shadow-lg hover:shadow-indigo-500/20 transition-all active:scale-[0.98] flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <BarChart2 className="w-5 h-5" />
+                {lang === "ko" ? "상세 분석 보기" : lang === "es" ? "Ver Análisis Detallado" : "View Detailed Analysis"}
+              </button>
+            ) : (
+              <>
+                {/* Detailed Stats Cards */}
+                <div className="grid grid-cols-2 gap-4">
+                  <StatCard 
+                    icon={<Type className="w-5 h-5 text-blue-500" />} 
+                    label={t.statWithSpace} 
+                    value={stats.charCountWithSpaces.toLocaleString()} 
+                    unit={t.unitChar} 
+                  />
+                  <StatCard 
+                    icon={<FileText className="w-5 h-5 text-teal-500" />} 
+                    label={t.statWithoutSpace} 
+                    value={stats.charCountWithoutSpaces.toLocaleString()} 
+                    unit={t.unitChar} 
+                  />
+                  <StatCard 
+                    icon={<BarChart2 className="w-5 h-5 text-orange-500" />} 
+                    label={t.statWords} 
+                    value={stats.wordCount.toLocaleString()} 
+                    unit={t.unitWord}
+                    className="col-span-2"
+                  />
+                </div>
 
-            {/* ── Readability Score Card ── */}
-            <div className={`rounded-2xl p-6 border ring-1 transition-all duration-500 ${readability ? `${readability.bg} ${readability.ring}` : "bg-white dark:bg-slate-900 ring-slate-200 dark:ring-slate-700 border-slate-100 dark:border-slate-800"}`}>
-              <div className="flex items-center gap-2 mb-3">
-                <BookOpen className={`w-5 h-5 ${readability ? readability.color : "text-slate-400"}`} />
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-                  {lang === "ko" ? "가독성 분석" : lang === "es" ? "Análisis de Legibilidad" : "Readability Score"}
-                </span>
-              </div>
-
-              {readability ? (
-                <>
-                  {/* Badge */}
+                {/* ── Readability Score Card ── */}
+                <div className={`rounded-2xl p-6 border ring-1 transition-all duration-500 ${readability ? `${readability.bg} ${readability.ring}` : "bg-white dark:bg-slate-900 ring-slate-200 dark:ring-slate-700 border-slate-100 dark:border-slate-800"}`}>
                   <div className="flex items-center gap-2 mb-3">
-                    <span className="text-xl">{readability.emoji}</span>
-                    <span className={`text-base font-black ${readability.color}`}>{readability.label}</span>
-                    <span className={`ml-auto text-2xl font-black tabular-nums ${readability.color}`}>{readability.score}</span>
+                    <BookOpen className={`w-5 h-5 ${readability ? readability.color : "text-slate-400"}`} />
+                    <span className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                      {lang === "ko" ? "가독성 분석" : lang === "es" ? "Análisis de Legibilidad" : "Readability Score"}
+                    </span>
                   </div>
 
-                  {/* Score bar */}
-                  <div className="w-full h-2 bg-black/10 dark:bg-white/10 rounded-full overflow-hidden mb-3">
-                    <div
-                      className="h-full rounded-full bg-gradient-to-r from-red-500 via-yellow-400 via-teal-400 to-emerald-500 transition-all duration-700"
-                      style={{ width: `${readability.score}%` }}
-                    />
-                  </div>
+                  {readability ? (
+                    <>
+                      {/* Badge */}
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className="text-xl">{readability.emoji}</span>
+                        <span className={`text-base font-black ${readability.color}`}>{readability.label}</span>
+                        <span className={`ml-auto text-2xl font-black tabular-nums ${readability.color}`}>{readability.score}</span>
+                      </div>
 
-                  <p className={`text-xs leading-relaxed font-medium ${readability.color} opacity-90`}>
-                    {readability.description}
-                  </p>
+                      {/* Score bar */}
+                      <div className="w-full h-2 bg-black/10 dark:bg-white/10 rounded-full overflow-hidden mb-3">
+                        <div
+                          className="h-full rounded-full bg-gradient-to-r from-red-500 via-yellow-400 via-teal-400 to-emerald-500 transition-all duration-700"
+                          style={{ width: `${readability.score}%` }}
+                        />
+                      </div>
 
-                  {/* Mini stats row */}
-                  <div className="flex gap-4 mt-4 text-[11px] text-slate-400 font-medium">
-                    <span>{lang === "ko" ? "문장" : lang === "es" ? "Oraciones" : "Sentences"}: <strong className="text-slate-600 dark:text-slate-300">{readability.sentences}</strong></span>
-                    <span>{lang === "ko" ? "문장당 단어" : lang === "es" ? "Palabras/oración" : "Words/sentence"}: <strong className="text-slate-600 dark:text-slate-300">{readability.avgWordsPerSentence}</strong></span>
-                  </div>
-                </>
-              ) : (
-                <p className="text-sm text-slate-400 dark:text-slate-500">
-                  {lang === "ko" ? "텍스트를 입력하면 가독성을 분석합니다." : lang === "es" ? "Ingresa texto para analizar la legibilidad." : "Enter text to analyze readability."}
-                </p>
-              )}
-            </div>
+                      <p className={`text-xs leading-relaxed font-medium ${readability.color} opacity-90`}>
+                        {readability.description}
+                      </p>
+
+                      {/* Mini stats row */}
+                      <div className="flex gap-4 mt-4 text-[11px] text-slate-400 font-medium">
+                        <span>{lang === "ko" ? "문장" : lang === "es" ? "Oraciones" : "Sentences"}: <strong className="text-slate-600 dark:text-slate-300">{readability.sentences}</strong></span>
+                        <span>{lang === "ko" ? "문장당 단어" : lang === "es" ? "Palabras/oración" : "Words/sentence"}: <strong className="text-slate-600 dark:text-slate-300">{readability.avgWordsPerSentence}</strong></span>
+                      </div>
+                    </>
+                  ) : (
+                    <p className="text-sm text-slate-400 dark:text-slate-500">
+                      {lang === "ko" ? "텍스트를 입력하면 가독성을 분석합니다." : lang === "es" ? "Ingresa texto para analizar la legibilidad." : "Enter text to analyze readability."}
+                    </p>
+                  )}
+                </div>
+              </>
+            )}
           </section>
         </div>
 
@@ -368,6 +396,14 @@ export default function Home() {
           text={text}
           totalSeconds={totalReadingSeconds}
           onClose={() => setShowTeleprompter(false)}
+          lang={lang}
+        />
+      )}
+      {/* Countdown Overlay */}
+      {isCountdown && (
+        <CountdownOverlay
+          duration={10}
+          onComplete={handleCountdownComplete}
           lang={lang}
         />
       )}
